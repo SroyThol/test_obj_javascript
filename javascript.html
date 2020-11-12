@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+	<!-- Creating obj by literal -->
+	<!-- <script>
+		let person = {
+			lastname:"Jaje", firstname:"yaye", age:21
+		}
+		console.log(person.lastname);
+		console.log(person.firstname);
+		console.log(person.age);
+	</script> -->
+
+	<script>
+		function person(firstname,lastname,age,address){
+			this.first = firstname;
+			this.last = lastname;
+			this.a = age;
+			this.add = address;
+		}
+		var person1 = new person("thol","sroy",21,"pp");
+		var person2 = new person("ty","da",20,"pp");
+		console.log(person1);
+		console.log(person2);
+	</script>
+
+</body>
+</html>
